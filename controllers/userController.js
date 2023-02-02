@@ -64,7 +64,7 @@ const userController = {
             .then((user) =>
                 !user
                     ? res.status(404).json({ message: 'No users with this ID!' })
-                    : res.json({ message: 'Added new friend.' })
+                    : res.json({ message: 'Added friend.' })
             )
     },
     deleteFriend(req, res) {
@@ -88,4 +88,4 @@ const userController = {
     },
 }
 
-moduel.exports = userController
+moduel.exports = userController;
