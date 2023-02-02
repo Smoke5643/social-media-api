@@ -13,7 +13,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      match: [/.+@.+\..+/, 'Must match and email address!']
+      match: [/.+@.+\..+/, 'Must match and email address!'],
     },
     thoughts: [{
       type: Schema.Types.ObjectId,
