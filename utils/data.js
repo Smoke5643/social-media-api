@@ -1,47 +1,47 @@
 const newUsersSeed= [
     {
-        "username": "",
-        "email": ""
+        "username": "helloclass469",
+        "email": "hello@class.com"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "funtimes90210",
+        "email": "fun@times.com"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "goodday812",
+        "email": "good@day.co"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "coolworld2023",
+        "email": "cool@world.net"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "firemarshall333",
+        "email": "fire@marshall.tv"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "fuzzybunny587",
+        "email": "fuzzy@bunny.org"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "lotusflower222",
+        "email": "lotus@flower.biz"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "andygriffith1",
+        "email": "andy@mayberry.gov"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "barneyfife2",
+        "email": "barney@mayberry.gov"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "gomerpyle3",
+        "email": "gomer@usmc.gov"
     },
     {
-        "username": "",
-        "email": ""
+        "username": "auntb783",
+        "email": "auntb@home.net"
     }
 ]
 

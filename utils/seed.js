@@ -12,7 +12,7 @@ connection.once('open', async () => {
 
   console.table(users);
 
-  console.loG('Seeding complete!');
+  console.log('Seeding complete!');
 
   process.exit(0);
 })
