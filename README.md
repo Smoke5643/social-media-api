@@ -18,4 +18,4 @@
 
   ## Visuals
 
-  https://drive.google.com/file/d/1Qc2ljK_SxIQtfNI0MtNTZltXyrIKldiO/view
+  https://drive.google.com/file/d/1TejKQjwF-qJIXWneMWBSH9KkTvxl48Gd/view
