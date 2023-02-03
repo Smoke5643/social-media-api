@@ -18,12 +18,13 @@ const reactionSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      // get: (timestamp) => (timestamp),
+      get: (date)=> date.toLocaleDateString("en-US"),
     },
   },
   {
     toJSON: {
       virtuals: true,
+      getters: true,
     },
     id: false,
   }
