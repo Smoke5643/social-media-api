@@ -53,6 +53,7 @@ const thoughtController = {
             { $addToSet: { reactions: req.body } },
             { new: true }
         )
+            .select('-__v')
             .then((thought) =>
                 !thought
                     ? res.status(404).json({ message: 'No thoughts with this ID!' })
@@ -66,6 +67,7 @@ const thoughtController = {
             { $pull: { reactions: { _id: req.params.reactionId } } },
             { new: true }
         )
+            .select('-__v')
             .then((thought) =>
                 !thought
                     ? res.status(404).json({ message: 'No thoughts with this ID!' })
